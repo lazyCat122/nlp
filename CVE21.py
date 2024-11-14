@@ -40,7 +40,7 @@ def filter_commits(commits):
     for commit in commits:
         if not re.search(r"\b(revert|merge|update)\b", commit, re.IGNORECASE):
             filtered_commits.append(commit.split()[0])  # 提取提交的哈希值（40个字符）
-    return filtered_commitss
+    return filtered_commits
 
 #tdout 是 subprocess.run 返回的结果对象的一个属性，表示标准输出（Standard Output）
 # 在命令行或终端中，标准输出通常是显示命令运行结果的地方。
