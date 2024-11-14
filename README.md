@@ -1,2 +1,1 @@
-# nlp
-learn_nlp
+# 自动化收集漏洞代码的 Python 脚本
